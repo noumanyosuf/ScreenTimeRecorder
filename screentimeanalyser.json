@@ -1,0 +1,20 @@
+{
+    "Info": [
+        {
+            "ScreenTime": 1720,
+            "Site": "google"
+        },
+        {
+            "ScreenTime": 430,
+            "Site": "stackoverflow"
+        },
+        {
+            "ScreenTime": 300,
+            "Site": "youtube"
+        },
+        {
+            "ScreenTime": 990,
+            "Site": "qt"
+        }
+    ]
+}
