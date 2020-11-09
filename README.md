@@ -6,7 +6,9 @@ To register a new application or site to monitor, add new entry in the screentim
 
 </br>
 <h3> High level design </h3>
-:screenshot -HLD
+<div align="center">
+    <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/HLD.PNG" width="400px"</img> 
+</div>
 
 A windows is created to monitor the monitor of the active window and is recorded if the windows is registered by user. The entired is recorded to a json file  periodically every 5 seconds and could be visualized by screentime viewer. The user can also start, stop, pause or resume the windows service by the viewer.
 
