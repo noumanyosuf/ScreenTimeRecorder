@@ -37,7 +37,7 @@ A service is created to monitor the active window and to recorded registered win
 </div>
 
 
-<h3> Screenshots </h3>
+<h3> Application screenshots </h3>
 
 Data visualization
 <div align="center">
