@@ -4,6 +4,17 @@ Screen time recorder is a Qt and C++ based application which monitors the way yo
 
 To register a new application or site to monitor, add new entry in the screentimeanalyser.json file of the the application/site names you intent to monitor and restart the recording from ScreenTimeViewer.exe.
 
+<h3> Introduction to windows services</h3>
+In Windows operating systems, a Windows service is a computer program that operates in the background. It is similar in concept to a Unix daemon. A Windows service must conform to the interface rules and protocols of the Service Control Manager, the component responsible for managing Windows services. It is the Services and Controller app, services.exe, that launches all the services and manages their actions, such as start, end, etc
+
+At a minimum a service requires the following items:
+- A Main Entry point (like any application)
+- A Service Entry point
+- A Service Control Handler
+
+For further information on window service, please go to https://docs.microsoft.com/en-us/dotnet/framework/windows-services/introduction-to-windows-service-applications
+and https://skycoder42.github.io/QtService/ for github page of qtservice, a qt warpper for windows service control management.
+
 </br>
 <h3> High level design </h3>
 <div align="center">
