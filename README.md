@@ -1,6 +1,6 @@
 # ScreenTimeRecorder
 <h3> About Screen Time Recorder </h3>
-Screen time recorder is a Qt and C++ based application which monitors the way you use your application, browser, presenting everything how long you've spent on certain app categories and specific apps. User has to register the applications and/or site names which they intened to be monitored.The collected data can be viewed on the viewer, respresnting the data in a pie chart and in tabular formate.
+Screen time recorder is a Qt and C++ based application which monitors the way you use your application, browser, presenting everything how long you've spent on certain app categories and specific apps. User has to register the applications and/or site names which they intend to be monitored. The collected data can be viewed on the viewer, representing the data in a pie chart and in tabular format.
 
 To register a new application or site to monitor, add new entry in the screentimeanalyser.json file of the the application/site names you intent to monitor and restart the recording from ScreenTimeViewer.exe.
 
