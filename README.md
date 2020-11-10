@@ -21,7 +21,7 @@ and https://skycoder42.github.io/QtService/ for github page of qtservice, a qt w
     <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/HLD.PNG" width="400px"</img> 
 </div>
 
-A windows is created to monitor the monitor of the active window and is recorded if the windows is registered by user. The entired is recorded to a json file  periodically every 5 seconds and could be visualized by screentime viewer. The user can also start, stop, pause or resume the windows service by the viewer.
+A service is created to monitor the active window and to recorded registered windows. The data is recorded to a json file  periodically every 5 seconds and could be visualized by screentime viewer. The user can also start, stop, pause or resume the windows service from the viewer. The record timeout not yet configurable but could be easy managed in future changes to the application. 
 
 <h3> Low level design </h3>
 :screenshot -LLD
