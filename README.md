@@ -18,22 +18,32 @@ and https://skycoder42.github.io/QtService/ for github page of qtservice, a qt w
 </br>
 <h3> High level design </h3>
 <div align="center">
-    <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/HLD.PNG" width="400px"</img> 
+    <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/HLD.PNG" width="500px"</img> 
 </div>
 
 A service is created to monitor the active window and to recorded registered windows. The data is recorded to a json file  periodically every 5 seconds and could be visualized by screentime viewer. The user can also start, stop, pause or resume the windows service from the viewer. The record timeout not yet configurable but could be easy managed in future changes to the application. 
 
 <h3> Low level design </h3>
-:screenshot -LLD
-
+<div align="center">
+    <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/ScreenTimeRecorder.PNG" width="600px"</img> 
+</div>
 </br>
+<div align="center">
+    <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/ScreenTimeService.PNG" width="400px"</img> 
+</div>
+</br>
+<div align="center">
+    <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/ScreenTimeViewer.PNG" width="400px"</img> 
+</div>
+
+
 <h3> Screenshots </h3>
 
 Data visualization
 <div align="center">
     <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/ScreenTime_Graph.PNG" width="400px"</img> 
 </div>
-</br>
+
 Windows service
 <div align="center">
     <img src="https://github.com/noumanyosuf/ScreenTimeRecorder/blob/main/ScreenTime_service.png" width="400px"</img> 
